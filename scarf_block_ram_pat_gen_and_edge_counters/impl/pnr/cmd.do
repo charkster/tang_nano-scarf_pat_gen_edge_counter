@@ -1,0 +1,10 @@
+-d C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\impl\gwsynthesis\scarf_block_ram_pat_gen_and_edge_counters.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\scarf_block_ram_and_pat_gen.cst
+-cfg C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

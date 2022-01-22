@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="scarf_block_ram_top" Lut="283">
+    <SubModule name="u_pll"/>
+    <SubModule name="u_scarf" Register="51" Lut="17">
+        <SubModule name="u_synchronizer_data_valid_ff_sclk" Register="2"/>
+        <SubModule name="u_synchronizer_rst_n_sync" Register="2"/>
+        <SubModule name="u_synchronizer_data_valid_clk" Register="2"/>
+        <SubModule name="u_synchronizer_ss_n" Register="2"/>
+    </SubModule>
+    <SubModule name="u_scarf_regmap_pattern_gen" Register="46" Lut="41"/>
+    <SubModule name="u_pattern_gen" Register="61" Alu="17" Lut="176"/>
+    <SubModule name="u_scarf_bram" Register="33" Lut="52"/>
+    <SubModule name="u_block_ram" Lut="1" Bsram="4"/>
+    <SubModule name="u_scarf_2_edge_counters">
+        <SubModule name="u_scarf_regmap_4_edge_counters" Register="24" Lut="27"/>
+        <SubModule name="u_edge_counter_0" Register="101" Lut="222">
+            <SubModule name="u_synchronizer_gpio_in" Register="2"/>
+        </SubModule>
+        <SubModule name="u_edge_counter_1" Register="101" Lut="223">
+            <SubModule name="u_synchronizer_gpio_in" Register="2"/>
+        </SubModule>
+    </SubModule>
+</Module>

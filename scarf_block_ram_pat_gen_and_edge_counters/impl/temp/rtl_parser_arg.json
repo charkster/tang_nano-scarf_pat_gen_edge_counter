@@ -1,0 +1,56 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/edge_counter.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/scarf_2_edge_counters.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/scarf_regmap_2_edge_counters.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/block_ram.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/pattern_gen.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/scarf.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/scarf_block_ram.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/scarf_block_ram_and_pat_gen_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/scarf_regmap_pat_gen.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/synchronizer.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Gowin/Projects/scarf_block_ram_pat_gen_and_edge_counters/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

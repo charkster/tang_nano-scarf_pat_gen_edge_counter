@@ -1,0 +1,43 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.2.02Beta
+//Part Number: GW1N-LV1QN48C6/I5
+//Created Time: Thu 01 23 01:38:06 2020
+
+IO_LOC  "button_b"  14;
+IO_PORT "button_b"  IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "clk_24mhz" 35;
+IO_PORT "clk_24mhz" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "ss_n"      38;
+IO_PORT "ss_n"      IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "sclk"      39;
+IO_PORT "sclk"      IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "mosi"      40;
+IO_PORT "mosi"      IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "miso"      41;
+IO_PORT "miso"      IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+
+IO_LOC  "gpio_pat_gen_out[0]" 27;
+IO_PORT "gpio_pat_gen_out[0]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_pat_gen_out[1]" 28;
+IO_PORT "gpio_pat_gen_out[1]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_pat_gen_out[2]" 29;
+IO_PORT "gpio_pat_gen_out[2]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_pat_gen_out[3]" 30;
+IO_PORT "gpio_pat_gen_out[3]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_pat_gen_out[4]" 31;
+IO_PORT "gpio_pat_gen_out[4]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_pat_gen_out[5]" 32;
+IO_PORT "gpio_pat_gen_out[5]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_pat_gen_out[6]" 33;
+IO_PORT "gpio_pat_gen_out[6]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_pat_gen_out[7]" 34;
+IO_PORT "gpio_pat_gen_out[7]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "pattern_done"        16;
+IO_PORT "pattern_done"        IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+
+IO_LOC  "gpio_0_in" 42;
+IO_PORT "gpio_0_in" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC  "gpio_1_in" 43;
+IO_PORT "gpio_1_in" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;

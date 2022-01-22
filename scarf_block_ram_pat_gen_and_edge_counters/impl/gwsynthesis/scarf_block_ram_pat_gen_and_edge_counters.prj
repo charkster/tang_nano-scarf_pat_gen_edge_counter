@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1" package="QFN48" speed="6" partNumber="GW1N-LV1QN48C6/I5"/>
+    <FileList>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\edge_counter.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\scarf_2_edge_counters.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\scarf_regmap_2_edge_counters.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\block_ram.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\pattern_gen.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\scarf.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\scarf_block_ram.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\scarf_block_ram_and_pat_gen_top.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\scarf_regmap_pat_gen.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\synchronizer.sv" type="verilog"/>
+        <File path="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Gowin\Projects\scarf_block_ram_pat_gen_and_edge_counters\impl\gwsynthesis\scarf_block_ram_pat_gen_and_edge_counters.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
