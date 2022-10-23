@@ -5,3 +5,4 @@ tang_nano-scarf_pat_gen_edge_counter/scarf_block_ram_pat_gen_and_edge_counters/i
 tang_nano-scarf_pat_gen_edge_counter/scarf_block_ram_pat_gen_and_edge_counters/impl/pnr/* linguist-generated=true
 tang_nano-scarf_pat_gen_edge_counter/scarf_block_ram_pat_gen_and_edge_counters/impl/temp/* linguist-generated=true
 tang_nano-scarf_pat_gen_edge_counter/scarf_block_ram_pat_gen_and_edge_counters/impl/gwsynthesis/* linguist-generated=true
+*.v linguist-language=SystemVerilog
